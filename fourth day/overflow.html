@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary:red;
+            --secondry: black;
+            --my-size:20px;
+        }
+        .parent{
+            padding: var(--my-size);
+            height: 200px;
+            height: 300px;
+            background-color: var(--my-var,blue);
+
+        }
+        .child{
+            padding: var(--my-size);
+            --my-var:red;
+        }
+        h2{
+            background-color: var(--my-var);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h2>Batch 7</h2>
+        <div class="child">
+            <h2>Mern class</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, quis nesciunt voluptates, voluptate maxime, animi odit ipsam nobis quidem pariatur deleniti rem magni sint doloremque perspiciatis vitae officiis alias quisquam.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            height: 40px;
+            position: fixed;
+            width: 100%;
+            background-color: antiquewhite;
+        }
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            padding: 10px;
+            color: gray;
+        }
+        .main{
+            background-color: black;
+            color: rgb(163, 157, 157);
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer{
+            background-color: aquamarine;
+            height: 300px;
+        }
+        .chatbox{
+            position: fixed;
+            bottom: 40px;
+            right: 10px;
+            font-size: 20px;
+            background-color: aliceblue;
+            padding: 10px;
+            border-radius: 50%;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Product</a></li>
+            <li><a>Service</a></li>
+            <li><a>Contact</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <h1>Welcome to the website</h1>
+        <p>These are the discription</p>
+    </div>
+    <div class="footer"></div>
+    <div class="chatbox">
+        <i class="fa-brands fa-twitch"></i>
+    </div>
+</body>
+</html>
